@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get in touch with Dr. Caligben Resources for your ICT and Educational needs">
+    <title>Contact - Dr. Caligben Resources</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h1>Dr. Caligben Resources</h1>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>We'd love to hear from you</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-wrapper">
+                <!-- Contact Form -->
+                <div class="contact-form-container">
+                    <h2>Send Us a Message</h2>
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required placeholder="Enter your full name">
+                            <span class="error-message" id="nameError"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+                            <span class="error-message" id="emailError"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="+234 xxx xxx xxxx">
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Service Interested In *</label>
+                            <select id="service" name="service" required>
+                                <option value="">Select a service</option>
+                                <option value="web-development">Web Development</option>
+                                <option value="software-development">Software Development</option>
+                                <option value="cloud-solutions">Cloud Solutions</option>
+                                <option value="cybersecurity">Cybersecurity</option>
+                                <option value="it-consulting">IT Consulting</option>
+                                <option value="technical-support">Technical Support</option>
+                                <option value="ict-training">ICT Training</option>
+                                <option value="corporate-training">Corporate Training</option>
+                                <option value="elearning">E-Learning Solutions</option>
+                                <option value="entrepreneurship">Entrepreneurship Training</option>
+                                <option value="certification">Certification Programs</option>
+                                <option value="educational-consulting">Educational Consulting</option>
+                                <option value="other">Other</option>
+                            </select>
+                            <span class="error-message" id="serviceError"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="6" required placeholder="Tell us about your project or inquiry..."></textarea>
+                            <span class="error-message" id="messageError"></span>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                    <div id="formSuccess" class="success-message" style="display: none;">
+                        <p>✓ Thank you! Your message has been sent successfully. We'll get back to you soon.</p>
+                    </div>
+                </div>
+
+                <!-- Contact Information -->
+                <div class="contact-info">
+                    <h2>Contact Information</h2>
+                    <div class="info-card">
+                        <div class="info-icon">📧</div>
+                        <div class="info-details">
+                            <h3>Email</h3>
+                            <p>info@drcaligben.com</p>
+                            <p>drcaligbenresources@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">📞</div>
+                        <div class="info-details">
+                            <h3>Phone</h3>
+                            <p>+234 703 535 5838</p>
+                            <p>+234 815 295 4812</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">📍</div>
+                        <div class="info-details">
+                            <h3>Office Address</h3>
+                            <p>DSC Expressway, Udu</p>
+                            <p>Delta State, Nigeria</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">🕐</div>
+                        <div class="info-details">
+                            <h3>Business Hours</h3>
+                            <p>Monday - Friday: 8:00 AM - 6:00 PM</p>
+                            <p>Saturday: 9:00 AM - 2:00 PM</p>
+                            <p>Sunday: Closed</p>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <h3>Follow Us</h3>
+                        <div class="social-icons">
+                            <a href="#" class="social-icon" aria-label="Facebook">📘</a>
+                            <a href="#" class="social-icon" aria-label="Twitter">🐦</a>
+                            <a href="#" class="social-icon" aria-label="LinkedIn">💼</a>
+                            <a href="#" class="social-icon" aria-label="Instagram">📷</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section (Placeholder) -->
+    <section class="map-section">
+        <div class="container">
+            <h2>Find Us</h2>
+            <div class="map-placeholder">
+                <p>🗺️ Map Location</p>
+                <p class="map-note">Interactive map will be integrated here</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Dr. Caligben Resources</h3>
+                    <p>Empowering businesses and education through innovative ICT solutions</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p>Email: info@drcaligben.com</p>
+                    <p>Phone: +234 xxx xxx xxxx</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Dr. Caligben Resources. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
